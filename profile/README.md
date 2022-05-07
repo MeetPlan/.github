@@ -8,6 +8,7 @@ We have some really powerful tools, such as documentation exports (certificates 
 
 ### Desktop app
 ![image](https://user-images.githubusercontent.com/52399966/167269792-e58dfa23-33c9-4b82-bd50-9c26b57328ac.png)
+*MeetPlan Linux app running on Fedora*
 
 Recently, we adopted [Tauri](https://tauri.studio/), which is a cross-platform framework for building JavaScript apps. Basically, it's our webapp packaged into Windows installation files (.msi), Debian (Linux) packages (.deb), Linux AppImages (.AppImage), MacOS packages (.dmg) and MacOS tarball (.tar.gz). Mobile support is not yet here for Tauri, but when it comes out, we'll also package it for Android & iOS. This app is currently in early alpha, but most features are working. App is available for download on [releases](https://github.com/MeetPlan/MeetPlanFrontend/releases) page of [MeetPlanFrontend](https://github.com/MeetPlan/MeetPlanFrontend). Note, that last release isn't always latest. Be sure to download stable release. Nightly releases are marked as prereleases.
 
