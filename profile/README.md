@@ -6,7 +6,14 @@ MeetPlan is a student information system (shortly SIS). It's fully open-source, 
 
 We have some really powerful tools, such as documentation exports (certificates of ending grades, certificates of schooling), meal ordering and much more. Try it, you won't regret it (though it's only in Slovenian, which I agree, is a problem, but this system is currently targeted at Slovenian audience & schools).
 
-#### Overview with timetable
+### Desktop app
+![image](https://user-images.githubusercontent.com/52399966/167269792-e58dfa23-33c9-4b82-bd50-9c26b57328ac.png)
+
+Recently, we adopted [Tauri](https://tauri.studio/), which is a cross-platform framework for building JavaScript apps. Basically, it's our webapp packaged into Windows installation files (.msi), Debian (Linux) packages (.deb), Linux AppImages (.AppImage), MacOS packages (.dmg) and MacOS tarball (.tar.gz). Mobile support is not yet here for Tauri, but when it comes out, we'll also package it for Android & iOS. This app is currently in early alpha, but most features are working. App is available for download on [releases](https://github.com/MeetPlan/MeetPlanFrontend/releases) page of [MeetPlanFrontend](https://github.com/MeetPlan/MeetPlanFrontend). Note, that last release isn't always latest. Be sure to download stable release. Nightly releases are marked as prereleases.
+
+If you are using [Docker configuration](https://github.com/MeetPlan/MeetPlanDocker), the URL you enter on login page is protocol (`https://` or `http://`), your domain and `/api`. Example: `https://example.com/api`
+
+### Overview with timetable
 ![image](https://user-images.githubusercontent.com/52399966/165902146-a281d35f-41e5-40b5-9c07-4d5727a2cf9e.png)
 
 # Roles
@@ -20,7 +27,7 @@ Our system has a lot of roles, some are under ongoing implementation. Our roadma
 - [x] Parent
 - [x] Student
 
-# Special functions
+# Special features
 Our system also has a lot of special functions:
 - [x] Timetable management
 - [x] Proton
@@ -33,6 +40,8 @@ Our system also has a lot of special functions:
 - [x] Student & Parent overview
 - [x] Realization with a pie chart
 - [x] Exports of different documents (class ending certificate (spričevalo) & certificate of schooliing (potrdilo o šolanju))
+- [x] Desktop app
+- [ ] Mobile app (coming soon)
 
 Even more things are currently planned, from expanding Proton, to simple bugfixes, so [stay tuned by visiting MeetPlan roadmap](https://github.com/orgs/MeetPlan/projects/3/views/1?sortedBy%5Bdirection%5D=desc&sortedBy%5BcolumnId%5D=Status).
 
