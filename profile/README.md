@@ -39,7 +39,7 @@ Our system also has a lot of special functions:
 - [x] Gradings
 - [x] Student & Parent overview
 - [x] Realization with a pie chart
-- [x] Exports of different documents (class ending certificate (spričevalo) & certificate of schooliing (potrdilo o šolanju))
+- [x] Exports of different documents (class ending certificate (spričevalo) & certificate of schooling (potrdilo o šolanju))
 - [x] Desktop app
 - [ ] Mobile app (coming soon)
 
