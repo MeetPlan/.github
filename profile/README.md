@@ -6,6 +6,9 @@ MeetPlan is a student information system (shortly SIS). It's fully open-source, 
 
 We have some really powerful tools, such as documentation exports (certificates of ending grades, certificates of schooling), meal ordering and much more. Try it, you won't regret it (though it's only in Slovenian, which I agree, is a problem, but this system is currently targeted at Slovenian audience & schools).
 
+## Demo
+Demonstration server is publicily available at https://meetplan.meetplan.ml. It will be hosted until my educational resources run out (in about 6 months as of May 9th 2022). These servers are provided for educational purposes ONLY and shall not be misused. The author has right to pull away the server hosting at any time.
+
 ## Installation
 Our guide on installing MeetPlan to a virtual machine is really extensive & beginner-friendly. It's recommended to follow this guide, as it's the only one officially tested.
 
@@ -79,3 +82,8 @@ Even more things are currently planned, from expanding Proton, to simple bugfixe
 
 ### Meals - order meals with ease
 ![image](https://user-images.githubusercontent.com/52399966/165902025-cc16115f-8c8b-4fcf-af72-9faf28011bc2.png)
+
+## Full disclaimer (legal stuff)
+Most of the code under this organization is licensed under GPLv3 license, but you have to check the coresponding repository for a license. Code can be freely used even in other projects under the statements and copyrights provided by the license. All the code in the repository is licensed under one specific license UNLESS it's explicitly defined otherwise.
+
+MeetPlan was designed to be a replacement to [eAsistent](https://easistent.com) and [Lo.Polis](https://www.lopolis.si/), which are both outdated and extremely pricey/costly. Both of these Student Information Systems can generate certificates and official documents, as it's a useful feature to schools, that saves a lot of time. MeetPlan is an educational project and SHALL NOT BE MISUSED IN ANY WAY. The author, contributors and the MeetPlan Team don't allow any misuse of the software, such as forgery of official documents. Author, contributors and the MeetPlan Team SHALL NOT IN ANY WAY BE LIABLE FOR MISUSE OF THIS SOFTWARE. You and solely you are liable on what you do with this software. You have been warned.
