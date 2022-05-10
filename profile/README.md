@@ -6,7 +6,12 @@ MeetPlan is a student information system (shortly SIS). It's fully open-source, 
 
 We have some really powerful tools, such as documentation exports (certificates of ending grades, certificates of schooling), meal ordering and much more. Try it, you won't regret it (though it's only in Slovenian, which I agree, is a problem, but this system is currently targeted at Slovenian audience & schools).
 
-### Desktop app
+## Installation
+Our guide on installing MeetPlan to a virtual machine is really extensive & beginner-friendly. It's recommended to follow this guide, as it's the only one officially tested.
+
+[English](https://github.com/MeetPlan/MeetPlanDocker/blob/main/INSTALLATION_en.md)
+
+## Desktop app
 ![image](https://user-images.githubusercontent.com/52399966/167269792-e58dfa23-33c9-4b82-bd50-9c26b57328ac.png)
 *MeetPlan Linux app running on Fedora*
 
@@ -14,10 +19,10 @@ Recently, we adopted [Tauri](https://tauri.studio/), which is a cross-platform f
 
 If you are using [Docker configuration](https://github.com/MeetPlan/MeetPlanDocker), the URL you enter on login page is protocol (`https://` or `http://`), your domain and `/api`. Example: `https://example.com/api`
 
-### Overview with timetable
+## Overview with timetable
 ![image](https://user-images.githubusercontent.com/52399966/165902146-a281d35f-41e5-40b5-9c07-4d5727a2cf9e.png)
 
-# Roles
+## Roles
 Our system has a lot of roles, some are under ongoing implementation. Our roadmap is visible [here](https://github.com/orgs/MeetPlan/projects/3/views/1?sortedBy%5Bdirection%5D=desc&sortedBy%5BcolumnId%5D=Status). Currently implemented or work-in-progress roles are (by permissions):
 - [x] Admin
 - [x] Principal
@@ -28,7 +33,7 @@ Our system has a lot of roles, some are under ongoing implementation. Our roadma
 - [x] Parent
 - [x] Student
 
-# Special features
+## Special features
 Our system also has a lot of special functions:
 - [x] Timetable management
 - [x] Proton
@@ -46,7 +51,7 @@ Our system also has a lot of special functions:
 
 Even more things are currently planned, from expanding Proton, to simple bugfixes, so [stay tuned by visiting MeetPlan roadmap](https://github.com/orgs/MeetPlan/projects/3/views/1?sortedBy%5Bdirection%5D=desc&sortedBy%5BcolumnId%5D=Status).
 
-# Showcase
+## Showcase
 ### Meeting details
 ![image](https://user-images.githubusercontent.com/52399966/165902179-e28ea67e-f11a-4474-8356-c8f4536e41b6.png)
 
