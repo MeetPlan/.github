@@ -9,6 +9,21 @@ We have some really powerful tools, such as documentation exports (certificates 
 ## Demo
 Demonstration server is publicily available at https://meetplan.meetplan.ml. It will be hosted until my educational resources run out (in about 6 months as of May 9th 2022). These servers are provided for educational purposes ONLY and shall not be misused. The author has right to pull away the server hosting at any time.
 
+Usernames and passwords. Be sure to use them how they are intended for use, otherwise, they WILL BE REVOKED. None of these accounts feature administrator access to the system.
+
+Role: `student` <br>
+E-Mail: `student@meetplan.ml` <br>
+Password: `student`
+
+Role: `parent` <br>
+E-Mail: `parent@meetplan.ml` <br>
+Password: `parent` <br>
+Parent of: `student@meetplan.ml`
+
+Role: `teacher` <br>
+E-Mail: `teacher@meetplan.ml` <br>
+Password: `teacher`
+
 ## Installation
 Our guide on installing MeetPlan to a virtual machine is really extensive & beginner-friendly. It's recommended to follow this guide, as it's the only one officially tested.
 
