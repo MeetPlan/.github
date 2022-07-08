@@ -45,8 +45,8 @@ Our system has a lot of roles, some are under ongoing implementation. Our roadma
 - [x] Admin
 - [x] Principal
 - [x] Principal assistant
-- [ ] School psychologist
-- [ ] Food organizer
+- [x] School psychologist
+- [x] Food organizer
 - [x] Teacher
 - [x] Parent
 - [x] Student
