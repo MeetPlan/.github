@@ -1,56 +1,27 @@
-# MeetPlan
+# [MeetPlan](https://meetplan.si)
 
 <img src="https://avatars.githubusercontent.com/u/81251558?s=200&v=4" align="right" alt="MeetPlan logo">
+
+## Slovenščina
+MeetPlan je študentski informacijski sistem (angl. student information system - SIS). Je popolnoma odprtokoden, zelo razširljiv, fleksibilen in primeren za vsako šolo. [Zaledni del (backend)](https://github.com/MeetPlan/MeetPlanBackend) je napisan v Go-ju, medtem ko je [spletna stran](https://github.com/MeetPlan/MeetPlanFrontend) napisana s Svelte frameworkom. Namestitev na strežnik je zelo preprosta z uporabo [Docker](https://github.com/MeetPlan/MeetPlanDocker) orodij. Poleg vsega, pa uporabljamo tudi svojo knjižico, katero imenujemo tudi Proton, ki skrbi za organizacijo nadomeščanj in vam bo zelo kmalu tudi ustvarila urnik.
+
+Imamo kar nekaj zmogljivih orodij, med drugim tudi izvoz dokumentacije (spričevala, potrdilo o šolanju), naročanje šolske prehrane in še veliko drugega. Poskusite sistem - ne boste obžalovali.
+
+MeetPlan sistem je zelo dobro dokumentiran s [spletno dokumentacijo](https://meetplan.si), ki vam zelo olajša delo pri namestitvi sistema na strežnik, pomaga vam pa tudi s funkcijami v sistemu, zato je zelo priporočljivo, da si jo ogledate.
+
+## English
 
 MeetPlan is a student information system (shortly SIS). It's fully open-source, extremely customizable, with [backend](https://github.com/MeetPlan/MeetPlanBackend) written in Go & [frontend](https://github.com/MeetPlan/MeetPlanFrontend) in Svelte. Deployment is extremely easy using [Docker](https://github.com/MeetPlan/MeetPlanDocker). It uses our internal library, called Proton, which is a fully open-source library, that manages your substitutions & soon even creates timetables for you.
 
 We have some really powerful tools, such as documentation exports (certificates of ending grades, certificates of schooling), meal ordering and much more. Try it, you won't regret it (though it's only in Slovenian, which I agree, is a problem, but this system is currently targeted at Slovenian audience & schools).
 
-## Demo
-Demonstration server is publicily available at https://meetplan.meetplan.ml. It will be hosted until my educational resources run out (in about 6 months as of May 9th 2022). These servers are provided for educational purposes ONLY and shall not be misused. The author has right to pull away the server hosting at any time.
+MeetPlan is very well documented with an [online documentation](https://meetplan.si) (only in Slovenian), which makes installation of the system onto a server very easy, aswell as helps you with other functions in the system, so it's highly recommended to check it out.
 
-Usernames and passwords. Be sure to use them how they are intended for use, otherwise, they WILL BE REVOKED. None of these accounts feature administrator access to the system.
-
-Role: `student` <br>
-E-Mail: `student@meetplan.ml` <br>
-Password: `student`
-
-Role: `parent` <br>
-E-Mail: `parent@meetplan.ml` <br>
-Password: `parent` <br>
-Parent of: `student@meetplan.ml`
-
-Role: `teacher` <br>
-E-Mail: `teacher@meetplan.ml` <br>
-Password: `teacher`
-
-## Installation
-Our guide on installing MeetPlan to a virtual machine is really extensive & beginner-friendly. It's recommended to follow this guide, as it's the only one officially tested.
-
-[English](https://github.com/MeetPlan/MeetPlanDocker/blob/main/INSTALLATION_en.md)
-
-## Desktop app
-![image](https://user-images.githubusercontent.com/52399966/167269792-e58dfa23-33c9-4b82-bd50-9c26b57328ac.png)
-*MeetPlan Linux app running on Fedora*
-
-Recently, we adopted [Tauri](https://tauri.studio/), which is a cross-platform framework for building JavaScript apps. Basically, it's our webapp packaged into Windows installation files (.msi), Debian (Linux) packages (.deb), Linux AppImages (.AppImage), MacOS packages (.dmg) and MacOS tarball (.tar.gz). Mobile support is not yet here for Tauri, but when it comes out, we'll also package it for Android & iOS. This app is currently in early alpha, but most features are working. App is available for download on [releases](https://github.com/MeetPlan/MeetPlanFrontend/releases) page of [MeetPlanFrontend](https://github.com/MeetPlan/MeetPlanFrontend). Note, that last release isn't always latest. Be sure to download stable release. Nightly releases are marked as prereleases.
-
-If you are using [Docker configuration](https://github.com/MeetPlan/MeetPlanDocker), the URL you enter on login page is protocol (`https://` or `http://`), your domain and `/api`. Example: `https://example.com/api`
-
-## Overview with timetable
+## Pogled na urnik/Overview with timetable
 ![image](https://user-images.githubusercontent.com/52399966/165902146-a281d35f-41e5-40b5-9c07-4d5727a2cf9e.png)
 
-## Roles
-Our system has a lot of roles, some are under ongoing implementation. Our roadmap is visible [here](https://github.com/orgs/MeetPlan/projects/3/views/1?sortedBy%5Bdirection%5D=desc&sortedBy%5BcolumnId%5D=Status). Currently implemented or work-in-progress roles are (by permissions):
-- [x] Admin
-- [x] Principal
-- [x] Principal assistant
-- [x] School psychologist
-- [x] Food organizer
-- [x] Teacher
-- [x] Parent
-- [x] Student
 
+<!--
 ## Special features
 Our system also has a lot of special functions:
 - [x] Timetable management
@@ -102,3 +73,4 @@ Even more things are currently planned, from expanding Proton, to simple bugfixe
 Most of the code under this organization is licensed under AGPLv3 license, but you have to check the coresponding repository for a license. Code can be freely used even in other projects under the statements and copyrights provided by the license. All the code in the repository is licensed under one specific license UNLESS it's explicitly defined otherwise.
 
 MeetPlan was designed to be a replacement to [eAsistent](https://easistent.com) and [Lo.Polis](https://www.lopolis.si/), which are both outdated and extremely pricey/costly. Both of these Student Information Systems can generate certificates and official documents, as it's a useful feature to schools, that saves a lot of time. MeetPlan is an educational project and SHALL NOT BE MISUSED IN ANY WAY. The author, contributors and the MeetPlan Team don't allow any misuse of the software, such as forgery of official documents. Author, contributors and the MeetPlan Team SHALL NOT IN ANY WAY BE LIABLE FOR MISUSE OF THIS SOFTWARE. You and solely you are liable on what you do with this software. You have been warned.
+-->
