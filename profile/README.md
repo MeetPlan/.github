@@ -18,7 +18,7 @@ We have some really powerful tools, such as documentation exports (certificates 
 MeetPlan is very well documented with an [online documentation](https://meetplan.si) (only in Slovenian), which makes installation of the system onto a server very easy, aswell as helps you with other functions in the system, so it's highly recommended to check it out.
 
 ## Pogled na urnik/Overview with timetable
-![image](https://user-images.githubusercontent.com/52399966/165902146-a281d35f-41e5-40b5-9c07-4d5727a2cf9e.png)
+![image](https://user-images.githubusercontent.com/52399966/187206784-816f7369-bfbc-4e5b-a64e-e2e59dca131b.png)
 
 
 <!--
